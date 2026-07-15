@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "5"
+# ///
 # Lendo o CSV do Volume que você criou
 df_clientes = spark.read \
     .option("header", "true") \

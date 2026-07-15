@@ -1,4 +1,11 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "5"
+# ///
+##DESAFIO ENG DADOS - EDVAN  
+
+
 # LER O ARQUIVO CSV QUE VOCÊ CARREGOU
 df = spark.read.format("csv") \
   .option("header", "true") \
